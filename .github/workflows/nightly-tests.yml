@@ -1,9 +1,9 @@
 name: Nightly Playwright Tests
 
 on:
-  schedule:
-    # Runs at 2 AM UTC every night (8 PM PST / 9 PM PDT)
-    - cron: '0 2 * * *'
+  # schedule:
+  #   # Runs at 2 AM UTC every night (8 PM PST / 9 PM PDT)
+  #   - cron: '0 2 * * *'
   # Allows manual triggering from Actions tab
   workflow_dispatch:
 
